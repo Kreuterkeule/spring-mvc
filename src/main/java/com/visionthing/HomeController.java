@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String homePage() {
-        return "<p style='color: green;'>Hello, World</p>";
+        return "<p style='color: green;'>Hello, World!</p>";
     }
 }
