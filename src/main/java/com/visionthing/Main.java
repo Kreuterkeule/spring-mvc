@@ -21,7 +21,7 @@ public class Main extends SpringBootServletInitializer implements CommandLineRun
 
     public static void main(String[] args) {
         logger.info("main() executed");
-        SpringApplication.run(Main.class, args)
+        SpringApplication.run(Main.class, args);
     }
 
     @Override
