@@ -15,13 +15,13 @@ public class Main extends SpringBootServletInitializer implements CommandLineRun
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        logger.info("configure() started");
+        logger.info("configure() executed");
         return application.sources(Main.class);
     }
 
     public static void main(String[] args) {
-        logger.info("main() started");
-        SpringApplication.run(Main.class, args);
+        logger.info("main() executed");
+        SpringApplication.run(Main.class, args)
     }
 
     @Override

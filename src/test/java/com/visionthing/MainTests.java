@@ -14,7 +14,7 @@ public class MainTests {
 
     @Test
     void contextLoads() {
-        logger.info("contextLoads() started");
+        logger.info("contextLoads() executed");
         assertEquals(true, true);
     }
 }
