@@ -25,7 +25,7 @@ public class Main extends SpringBootServletInitializer implements CommandLineRun
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         logger.info("run() started");
     }
 }
