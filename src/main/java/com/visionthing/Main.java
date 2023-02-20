@@ -11,21 +11,21 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class Main extends SpringBootServletInitializer implements CommandLineRunner {
 
-    public static final Logger logger = LoggerFactory.getLogger(Main.class);
+    public static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        logger.info("configure() executed");
+        LOGGER.info("configure() executed");
         return application.sources(Main.class);
     }
 
     public static void main(String[] args) {
-        logger.info("main() executed");
+        LOGGER.info("main() executed");
         SpringApplication.run(Main.class, args);
     }
 
     @Override
     public void run(String... args) {
-        logger.info("run() started");
+        LOGGER.info("run() started");
     }
 }
